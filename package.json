@@ -1,0 +1,23 @@
+{
+  "name": "projeto-nd-ts",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --env-file=.env --import=tsx --watch ./src/server.ts",
+    "file": "node --env-file=.env --import=tsx --watch ./src/file.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.3",
+    "tsx": "^4.20.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "helmet": "^8.1.0"
+  }
+}
